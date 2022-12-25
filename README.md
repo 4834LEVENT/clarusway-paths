@@ -1,1 +1,1 @@
-# clarusway-paths
+# clarusway paths

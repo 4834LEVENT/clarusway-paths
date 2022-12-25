@@ -1,0 +1,84 @@
+/* SIFIRLAMA*/
+/*--------------------------------*/
+*{
+padding: o;
+margin: 0;
+box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+body{
+  background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgb(16, 75, 121) 56%, rgb(255, 224, 224) 99%);
+}
+
+h1{
+    padding: 15px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 70px;
+    color: rgb(198, 195, 195);
+}
+h1:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+section.path{
+   font-family: 'Noto Sans', sans-serif; 
+   height:18rem ; 
+   width: 80%; 
+   padding: 10px;
+   margin: 15px;
+   display:inline-flex;
+   justify-content: space-between;
+   background-color: aqua;
+   border-radius: 10px;
+   background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(9,6,18,1) 0%, rgb(148, 186, 198) 93%);
+   box-shadow: 4px 4px 4px 4px rgb(240, 233, 233);
+  text-shadow:1px 1px rgb(74, 63, 63) ;
+}
+section.path:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+box-shadow: 10px 10px 10px  rgb(238, 196, 196);
+}
+img{
+    padding: 10px;
+}
+ img:hover{
+    width: 40%;
+    height: 270px;
+    padding: 0;
+}
+
+
+
+div a{
+    position: absolute;
+    bottom :20px ;
+    right: 20px;
+    text-decoration: none;
+    padding: 0.8rem;
+    background-color: #FF7F50;
+    border-radius: 5px;
+    color: white;
+}
+div p{
+    margin-bottom:8% ;
+    padding:10px ;
+}
+
+div{
+    position: relative;
+}
+div a:hover{
+    padding: 1rem;
+
+}
+
